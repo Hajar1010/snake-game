@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const squares = document.querySelectorAll(".grid div")
-    const scoreDisplay = document.querySelector("span")
+    const scoreDisplay = document.getElementById("score-text")
     const startBtn = document.querySelector(".start")
 
     const width = 10
