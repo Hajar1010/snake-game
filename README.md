@@ -19,5 +19,3 @@ A lightweight, modern, responsive retro Snake Game built entirely with vanilla w
 3. Eat the pulsing red apples to increase your score and length.
 4. Avoid running into the perimeter borders or colliding with your own body tail tiles, which will result in an immediate Game Over.
 
-cdcbwhefhewgfhywefcuehrfhrefweffcef   uueh hrf chnjfnnjfhsf cu cei cå c fpjfpe fchfjsp wp f hajsrh hajr hajr
-h jakkfghadhhfkjfhajawr jaskr hajar hajr jaj
