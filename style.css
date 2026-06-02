@@ -1,0 +1,92 @@
+/* Core Layout & Theme */
+body {
+    background-color: #1a1a24;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Score Display */
+.score {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00ffcc;
+}
+
+/* Start/Restart Button */
+.start {
+    background: linear-gradient(135deg, #00ffcc, #0077ff);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 255, 204, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.start:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 255, 204, 0.5);
+}
+
+.start:active {
+    transform: translateY(1px);
+}
+
+/* The Grid Board */
+.grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #232331;
+    border: 4px solid #32324d;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+/* Individual Grid Tiles */
+.grid div {
+    width: 40px;  /* 400px width / 10 columns */
+    height: 40px; /* 400px height / 10 rows */
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.03); 
+}
+
+/* The Snake */
+.snake {
+    background: #00ffcc;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+/* The Apple */
+.apple {
+    background: #ff3366;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #ff3366;
+    animation: pulse 1.5s infinite alternate;
+}
+
+/* Apple Breathing Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
