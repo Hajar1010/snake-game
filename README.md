@@ -14,6 +14,7 @@ A lightweight, modern, responsive retro Snake Game built entirely with vanilla w
 * **JavaScript (ES6+):** Core game mechanics, directional matrices, dynamic tile distribution, and state lifecycle loops.
 
 ## How to Play
+   https://hajar1010.github.io/snake-game/
 1. Click the **Start/Restart** button to launch or clear the session state.
 2. Use your keyboard's **Arrow Keys** (`Up`, `Down`, `Left`, `Right`) to control the direction of the snake.
 3. Eat the pulsing red apples to increase your score and length.
