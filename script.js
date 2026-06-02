@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
             (currentSnake[0] - width < 0 && direction === -width) ||               
             (squares[currentSnake[0] + direction]?.classList.contains("snake"))   
         ) {
+            scoreDisplay.innerHTML = `${score} <b style="color: #ff3366; margin-left: 10px;">- Game Over! Click Start/Restart to play again</b>`
             return clearInterval(interval)
         }
 
